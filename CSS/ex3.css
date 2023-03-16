@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+
+
+h1 {
+    text-align: center;
+}
+
+
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(194, 171, 44);
+}
+
+.googlefontx {
+    font-family:Tilt Prism ;
+    color: blue;
+}
+
+
+.local {
+    font-family:Minha fonte;
+    color: rgb(8, 154, 47);
+}
+
+.sombreado {
+    text-shadow: 2px 2px 1px #000;
+}

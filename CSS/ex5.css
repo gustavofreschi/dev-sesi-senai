@@ -1,0 +1,49 @@
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo {
+    height: 50px;
+    background: url(logo.svg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    
+}
+
+.opacidade-rgba {
+    background-color: rgba(44, 96, 180, 0.3);
+}
+
+.matriz {
+    height: 300px;
+    width: 500px;
+    background: url(http://192.168.0.236:5500/arquivos/matriz-musicdot-antiga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    
+}
+
+.linha {
+    border-bottom: 4px black solid;
+    margin-bottom: 15px;
+
+}
+
+
+hr {
+    position: relative;
+    border: none;
+    height: 4px;
+    background-color: black;
+}
+
+.family {
+    float: right;
+    height: 200px;
+    width: 300px;
+    background: url(familia-tupfeln.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

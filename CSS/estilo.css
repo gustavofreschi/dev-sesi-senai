@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(195, 195, 195);
+}
+
+
+
+h1 {
+    color: grey;
+    text-align: center;
+}
+
+h1:hover {
+    color: rgb(57, 199, 41);
+    text-align: center;
+    font-size: 40px;
+    transition: 5s;
+}
+
+.bar {
+    overflow: hidden;
+    background-color: rgb(12, 218, 12);
+    padding: 1px;
+}
+
+
+.blue {
+    padding: 50px;
+    background-color: blue;
+}
+
+.green {
+    padding: 50px;
+    background-color: green;
+}
+
+.orange {
+    padding: 50px;
+    background-color: rgb(196, 135, 22);
+}
+
+.red {
+    padding: 50px;
+    background-color: rgb(176, 15, 15);
+}
+
+.purple {
+    padding: 50px;
+    background-color: purple;
+}
+
+#black {
+    padding: 50px;
+    background-color: black;
+}
+
+hr {
+    border-color: rgb(19, 248, 19);
+    width: 508px;
+}
+
+table {
+    margin: auto;
+}
+
+.blue:hover {
+    padding: 50px;
+    background-color: rgb(0, 229, 255);
+    transition: 1s;
+}
+
+.green:hover {
+    padding: 50px;
+    background-color: rgb(16, 220, 16);
+    transition: 1s;
+}
+
+.orange:hover {
+    padding: 50px;
+    background-color: rgb(240, 161, 14);
+    transition: 1s;
+}
+
+.red:hover {
+    padding: 50px;
+    background-color: rgb(238, 85, 85);
+    transition: 1s;
+}
+
+.purple:hover {
+    padding: 50px;
+    background-color: rgb(207, 10, 207);
+    transition: 1s;
+}
+
+#black:hover {
+    padding: 50px;
+    background-image: url(gif.gif); background-size: cover;
+}
