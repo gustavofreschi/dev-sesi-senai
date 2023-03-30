@@ -108,6 +108,7 @@ h3 {
 
 .fundo-imagem2 {
     height: 400px;
+    width: 500px;
     background-image: url(nes.png);
     background-repeat: no-repeat;
     /*Comando para cobrir a imagem*/
@@ -115,8 +116,85 @@ h3 {
 }
 
 .fundo-tela-dinamico {
-    height: 1000px;
+    height: 500px;
+    width: 600px;
     background :url(https://source.unsplash.com/1920x2400?hdr,sunset,ocean);
     background-size: cover;
     
     }
+
+.borda-solid {
+    border-style: solid;
+}
+
+.borda-dashed {
+    border-style: dashed;
+}
+
+.borda-dotted {
+    border-style: dotted;
+}
+
+.borda-double {
+    border-style: double;
+}
+
+.div1 {
+    border: 1px solid black;
+}
+
+.div2 {
+    border: 1px solid black;
+    background-color: rgba(255, 0, 0, 0.57);
+    text-align: right;
+}
+
+.div-margin {
+    background-color: darkblue;
+    color: white;
+    margin: 10px; /* Define o espaçamento externo do elemento */
+}
+
+.div-centralizada {
+    background-color: darkmagenta;
+    width: 300px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.div-padding {
+    background-color: green;
+    padding: 20px; /* Define o espaçamento interno do elemento */
+}
+
+.div-everything {
+    background-color: blue;
+    padding: 40px;
+    margin: 20px;
+    border: 20px solid black;
+}
+
+
+.botao {
+    background-color: magenta;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px solid darkmagenta;
+    color: white;
+    margin-right: 10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao:hover {
+    background-color: rgba(255, 0, 255, 0.512);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px solid rgba(139, 0, 139, 0.375);
+    transition-duration: 0.5s;
+    
+}
+
+/* display:flex */
